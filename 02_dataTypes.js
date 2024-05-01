@@ -54,3 +54,29 @@ const myFunc = function(){
     console.log("hello world");
 }
 myFunc()
+
+
+// stack (primitive) change in copy of var
+// heap (non primitve) change in actual var
+
+// primitive example
+let name1 = "linus"
+let name2 = name1
+
+name2 = "zeus"
+console.log(name1);
+console.log(name2);
+
+// object (non primitive example)
+let userOne = {
+    email : "linus@gmail.com",
+}
+
+let userTwo = userOne;
+
+console.log(userOne.email);
+
+userTwo.email = "zeus@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
