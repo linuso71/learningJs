@@ -23,3 +23,34 @@ symbol => unique
 
 console.log(typeof undefined); //undefined
 console.log(typeof null); // object
+
+
+// Primitive *search about it
+
+// 7 types : String, Number , Boolean, null, undefined, Symbol, BigInt
+
+
+// Referece (Non primitive)
+
+// Array, Objects, Functions
+
+
+const id = Symbol("123");
+const anotherId = Symbol('123');
+// console.log(id === anotherId)
+
+//array
+const names = ["linus","zeus",2]
+
+console.log(typeof names[2]);
+
+let myObj = {
+    name:"linus",
+    age:"22",
+}
+console.log(myObj)
+
+const myFunc = function(){
+    console.log("hello world");
+}
+myFunc()
