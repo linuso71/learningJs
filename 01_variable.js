@@ -3,7 +3,7 @@ let accountEmail = "linus@gmail.com"
 var accountPassword = "12345"
 accountCity = "Delhi"
 let accountState; // not setting value
-// accountId = 2 // Not able to change constant variable
+// accountId = 2 // Not able to change constant variffable
 
 accountEmail = "linus124@gmail.com"
 accountPassword = "123"
